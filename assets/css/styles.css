@@ -1,0 +1,289 @@
+/*GENERALES*/
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif, Arial;
+}
+
+body {
+    background: url(../img/bg.png);
+}
+
+a {
+    color: #01B1EA;
+}
+
+a:visited {
+    color: #01B1EA;
+}
+
+a:hover {
+    color: #555555;
+}
+
+
+/*CONTAINER*/
+
+#container {
+    width: 80%;
+    margin: 0px auto;
+    box-shadow: 0px 0px 10px rgb(187, 166, 247);
+    background: white;
+}
+
+
+/*HEADER*/
+
+#header {
+    height: 190px;
+    margin: 0px auto;
+    background: #f7d6dd;
+}
+
+#logo {
+    padding: 30px;
+    margin-left: 20px;
+    float: left;
+}
+
+#logo img {
+    float: left;
+    height: 150px;
+}
+
+#logo a {
+    float: left;
+    font-size: 40px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #cdc1f8;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 25px;
+    margin-top: 35px;
+    text-shadow: 0px 2px 1px #390c3f;
+    transition: all 300ms;
+}
+
+#logo a:hover {
+    text-shadow: 0px 2px 1px #222222, 0px 0px 4px#01B1EA;
+}
+
+
+/*MENU*/
+
+#menu {
+    clear: both;
+    background: rgb(194, 206, 243);
+    color: white;
+    height: 55px;
+    border-bottom: 4px solid #a0c9da;
+}
+
+#menu ul {
+    list-style: none;
+    text-decoration: none;
+    margin: 0px auto;
+    margin-left: 25px;
+}
+
+#menu ul li {
+    line-height: 55px;
+    float: left;
+    border-right: 1px solid #c1dff3;
+}
+
+#menu a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding-left: 12px;
+    padding-right: 12px;
+    transition: all 300ms;
+}
+
+#menu a:first-child {
+    border-left: 1px solid #c1dff3;
+}
+
+#menu a:hover {
+    background: darksalmon;
+}
+
+
+/*CONTENT*/
+
+#content {
+    margin: 0px auto;
+    overflow: hidden;
+    background: white;
+}
+
+
+/*BARRA LATERAL*/
+
+#lateral {
+    width: 22%;
+    min-height: 500px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+#lateral .block_aside {
+    display: block;
+    width: 90%;
+    margin: 5px auto;
+    padding: 10px;
+}
+
+#lateral h3 {
+    display: block;
+    color: rgb(20, 19, 19);
+    width: 100%;
+    text-align: center;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    background: #E1E1E1;
+    border-bottom: 2px solid #01B1EA;
+}
+
+#lateral ul {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#lateral ul li {
+    list-style: square;
+    margin-left: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+
+/*FORMS*/
+
+label,
+input[type="text"],
+input[type="password"],
+input[type="email"],
+select {
+    display: block;
+    width: 95%;
+    margin-top: 2px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+select {
+    border: 1px solid #C9C9C9;
+    box-shadow: 0px 0px 2px #ccc inset;
+    background: white;
+    padding: 2px;
+    color: gray;
+    transition: all 300ms;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus,
+select {
+    border: 1px solid #1579b5;
+    color: black;
+}
+
+input[type="button"],
+input[type="submit"],
+button,
+.button {
+    display: block;
+    border-radius: 2px;
+    width: auto;
+    padding: 5px;
+    padding-left: 10px;
+    color: white;
+    background: #2979CD;
+    border: 1px solid #11608E;
+    cursor: pointer;
+}
+
+.button {
+    background: #abe5fc;
+    color: white;
+    text-align: none;
+}
+
+label,
+input[type="button"],
+input[type="submit"],
+button {
+    display: block;
+    margin-top: 10px;
+}
+
+
+/*CENTRAL*/
+
+#central {
+    width: 72%;
+    min-height: 500px;
+    float: right;
+    border-left: 1px solid #ccc;
+    box-shadow: -5px -1px 5px #ddd;
+    padding: 25px;
+}
+
+#central h1 {
+    font-size: 25px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 5px;
+    padding: 20px;
+    padding-top: 0px;
+}
+
+
+/*PRODUCTOS*/
+
+.product {
+    width: 30%;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.product img {
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+.product h2 {
+    font-size: 10px;
+    margin-bottom: 10px;
+}
+
+.product p {
+    font-weight: bold;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+
+/*FOOTER*/
+
+#footer {
+    clear: both;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    background: #222222;
+    border-top: 4px solid #01B1EA;
+}
